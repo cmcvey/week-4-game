@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Harry Potter';
+  
+  src: url('harryp.ttf')  format('truetype'); /* Safari, Android, iOS */
+       
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+
+
+h1 {
+	text-align: center;
+	font-family: "Harry Potter";
+	font-size: 80px;
+	color: yellow;
+}
+
+h3 {
+	font-family: "Harry Potter";
+	font-size: 45px;
+	color: yellow;
+}
+
+.character {
+	width: 150px;
+	border: 2px solid black;
+	text-align: center;
+	display: inline-block;
+	background-color: white;
+	color: black;
+}
+
+.character img {
+	width: 125px;
+	height: 100px;
+}
+
+#message {
+	text-align: center;
+	margin-bottom: 15px;
+	background-color: #bbb;
+	color: black;
+	padding: 10px;
+}
